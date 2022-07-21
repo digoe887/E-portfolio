@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My <E-Portfolio></E-Portfolio></title>
+    <title>My E-Portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
@@ -16,22 +16,22 @@
       <nav>
         <div class="personal__logo">Derrick Igoe</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Projects</a
             >
           </li>
-          <li>
-            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+          <li class="nav__link">
+            <a href="mailto:digoe87@gmail.com" class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
           </li>
@@ -48,7 +48,7 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              <span class="text--purple">Hey I'm Derrick Igoe!</span>
+              <span class="text--purple">Hey I'm Derrick Igoe!</span>&nbsp;<span class="wave">👋</span>
             </h1>
             <p class="about-me__info--para">
               I'm a
@@ -67,7 +67,7 @@
               <a href="" class="about-me__links">
                 <i class="fas fa-envelope-open-text"></i>
               </a>
-              <a href="" class="about-me__links">
+              <a href="./assets/Example Resume.pdf" target="_blank" class="about-me__links">
                 <i class="fas fa-file-pdf"></i>
               </a>
             </div>
@@ -85,16 +85,245 @@
     <section id="languages">
       <div class="container">
         <div class="row">
-          <h1 class="section__title">This is my Technology Stack</h1>
-          <div class="language_list">
+          <h1 class="section__title">
+            This is my <span class="text--purple">Technology Stack</span>
+          </h1>
+          <div class="language__list">
             <div class="language">
-                <figure class="language__img--wrapper">
-                    <img src="" class="language__img" alt="">
-                </figure>
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <div class="span language__name">HTML</div>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <div class="span language__name">CSS</div>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <div class="span language__name">JS</div>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <div class="span language__name">React</div>
+            </div>
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <div class="span language__name">TypeScript</div>
+            </div>
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <div class="span language__name">Vue</div>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1200px-WordPress_blue_logo.svg.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <div class="span language__name">Wordpress</div>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://miro.medium.com/max/300/1*R4c8lHBHuH5qyqOtZb3h-w.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <div class="span language__name">Firebase</div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="text--purple">Projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/loopit.png" class="project__img" alt="" />
+                <div class="project__description">
+                  <h3 class="project__description--title">Car sales project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS Javascript, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat tempore harum incidunt nostrum voluptatibus beatae
+                    eius culpa officiis sint itaque aspernatur enim soluta, at
+                    ullam ex, iste vitae architecto tenetur.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://www.github.com/digoe887"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.yourwebsite.com"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/loopit.png" class="project__img" alt="" />
+                <div class="project__description">
+                  <h3 class="project__description--title">Car sales project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS Javascript, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat tempore harum incidunt nostrum voluptatibus beatae
+                    eius culpa officiis sint itaque aspernatur enim soluta, at
+                    ullam ex, iste vitae architecto tenetur.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://www.github.com/digoe887"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.yourwebsite.com"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/loopit.png" class="project__img" alt="" />
+                <div class="project__description">
+                  <h3 class="project__description--title">Car sales project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS Javascript, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat tempore harum incidunt nostrum voluptatibus beatae
+                    eius culpa officiis sint itaque aspernatur enim soluta, at
+                    ullam ex, iste vitae architecto tenetur.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://www.github.com/digoe887"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.yourwebsite.com"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img src="./assets/logo.svg" class="footer__logo--img" alt="" />
+          </figure>
+          <span class="footer__logo--popper">
+            Top 
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://google.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://google.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:digoe87@gmail.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Email</a
+          >
+          <a
+            href="./assets/Example Resume.pdf"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Resume</a
+          >
+        </div>
+        <div class="footer__copyright">Copyright © 2022 Derrick Igoe</div>
+      </div>
+    </footer>
   </body>
 </html>
